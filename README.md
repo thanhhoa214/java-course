@@ -143,3 +143,15 @@ public void writeTweet() throws Exception {
 1. Public functions (Alphabetize)
 1. Private functions (Alphabetize)
 1. Implemented Functions from (`implements`, `extends`)
+
+### 4. Coding Guideline
+
+#### 1. Function Principle:
+
+Follows these 5 steps:
+
+1. Input
+2. Validate
+3. Transform
+4. Execute
+5. Output

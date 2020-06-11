@@ -122,6 +122,7 @@ public void writeTweet() throws Exception {
   - Boolean variable and boolean-returned function must start with **is\_\_\_\_**. (boolean isSuccessful, not <s>checkSuccessful</s>, not <s>flag</s>).
   - All field must have access modifier. (public, private, protected).
   - Database table **fields** follows **lower_snakecase**.
+  - Form item names must be **camelCase**.
 - Variable:
   - Must be a **noun**.
   - Array variables are plural, start **arrayOf** (optional)

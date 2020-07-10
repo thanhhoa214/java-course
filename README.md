@@ -21,7 +21,6 @@
 
 ```java
 public void checkGameStatus() {
-  if (
     remaining === 0 ||
     (remaining === 1 && remainingPlayers === 1) ||
     remainingPlayers === 0
@@ -117,11 +116,11 @@ public void writeTweet() throws Exception {
 
 - Common:
   - Class, interface, enum must be a **noun** and follow **PascalCase**.
-  - Constants and enum attributes follows **lower_snakecase**.
+  - Constants and enum attributes follows **UPPER_SNAKECASE**.
   - Function, variables follow **camelCase**.
   - Boolean variable and boolean-returned function must start with **is\_\_\_\_**. (boolean isSuccessful, not <s>checkSuccessful</s>, not <s>flag</s>).
   - All field must have access modifier. (public, private, protected).
-  - Database table **fields** follows **lower_snakecase**.
+  - Database table **fields** follows **lower_snake_case**.
   - Form item names must be **camelCase**.
 - Variable:
   - Must be a **noun**.
@@ -137,9 +136,13 @@ public void writeTweet() throws Exception {
 
 ### 3. Code Arrangement
 
+1. Public static attributes (Alphabetize)
+1. Private static attributes (Alphabetize)
 1. Public attributes (Alphabetize)
 1. Private attributes (Alphabetize)
 1. Constructors
+1. Public static functions (Alphabetize)
+1. Private static functions (Alphabetize)
 1. Public functions (Alphabetize)
 1. Private functions (Alphabetize)
 1. Implemented Functions from (`implements`, `extends`)
